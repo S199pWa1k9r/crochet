@@ -1,0 +1,16 @@
+#!/bin/sh
+
+echo
+echo \# sysctl dev.cpu.0.freq
+sysctl dev.cpu.0.freq
+echo
+echo \# sysctl dev.cpu.0
+sysctl dev.cpu.0
+echo
+echo \# sysctl dev.aw_thermal.0
+sysctl dev.aw_thermal.0
+echo
+
+echo \# sysctl debug.cpufreq.verbose=0
+sysctl debug.cpufreq.verbose=0
+
